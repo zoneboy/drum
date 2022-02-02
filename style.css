@@ -63,6 +63,6 @@ kbd {
 @media screen and (max-width: 938px) {
   
   .key {
-    flex: 25%;
+    flex: 20%;
   }
 }
