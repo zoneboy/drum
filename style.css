@@ -27,6 +27,7 @@ h1 {
 }
 
 .key {
+  /*flex: 100%;*/
   border: .4rem solid black;
   border-radius: .5rem;
   margin: 1rem;
@@ -57,4 +58,11 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+@media screen and (max-width: 938px) {
+  
+  .key {
+    flex: 25%;
+  }
 }
